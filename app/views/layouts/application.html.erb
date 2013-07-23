@@ -9,13 +9,15 @@
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="navbar-inner">
-		<a class="brand" href="#">treebook</a>
+		<a class="brand" href="#">Treebook</a>
 		<ul class="nav">
 			<li><%= link_to "All Statuses", statuses_path %></li>
 		</ul>
 	</div>
 </div>
 <div class="container">
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 	<%= yield %>
 </div>
 </body>
